@@ -1,0 +1,133 @@
+.mainBgContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.commentBgContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.commentHeader {
+  font-family: roboto;
+  font-size: 32px;
+  margin-top: 0px;
+}
+.inputImgContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.commentImg {
+  width: 55%;
+  align-self: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.description {
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nameBox {
+  width: 100%;
+  color: #1e293b;
+  font-family: roboto;
+  font-size: 18px;
+  padding: 6px;
+  background-color: transparent;
+  border: solid 1px #dee0e3;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  outline: none;
+}
+.commentBox {
+  width: 100%;
+  color: #1e293b;
+  font-family: roboto;
+  font-size: 16px;
+  background-color: transparent;
+  border: solid 1px #dee0e3;
+  border-radius: 4px;
+  outline: none;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  padding: 6px;
+}
+.addBtn {
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 16px;
+  background-color: #0284c7;
+  padding: 8px;
+  border-width: 0px;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 10px;
+}
+.separator {
+  width: 100%;
+  border-color: #dee0e3;
+}
+.commentContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.commentCount {
+  font-family: roboto;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #0284c7;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 6px;
+}
+.commentName {
+  font-family: roboto;
+  font-size: 14px;
+  color: #1e293b;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .formContainer {
+    width: 50%;
+  }
+  .inputImgContainer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .commentImg {
+    width: 45%;
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .formContainer {
+    width: 45%;
+  }
+  .commentImg {
+    width: 40%;
+  }
+}
+
+.commentBgContainer {
+  list-style-type: none;
+  padding-left: 0px;
+}

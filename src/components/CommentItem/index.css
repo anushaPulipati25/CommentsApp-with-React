@@ -1,0 +1,128 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.nameIcon {
+  border-radius: 100%;
+}
+.nameTimeContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 0px;
+}
+.nameCommentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.iconCommentContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.username {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.icon {
+  background-color: #f59e0b;
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 100%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.duration {
+  color: #64748b;
+  font-family: roboto;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.commentDescription {
+  font-family: roboto;
+  font-size: 14px;
+  padding-left: 45px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.likeImgContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 0px;
+}
+.button {
+  border-width: 0px;
+  background-color: transparent;
+  padding-left: 0px;
+}
+
+.likeText {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.likedText {
+  margin-left: 10px;
+  color: #0ea5e9;
+  cursor: pointer;
+}
+.deleteIcon {
+  cursor: pointer;
+}
+.deleteContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 8px;
+}
+.separator {
+  width: 100%;
+  border-color: #dee0e3;
+}
